@@ -1,23 +1,36 @@
-# AI-Object-Detector
-Real-time AI Object Detection in the Browser using Next.js, TensorFlow.js, and COCO-SSD
-  AI Object Detector
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-An AI-powered real-time **object detection system** built with **Next.js, React, TensorFlow.js, and COCO-SSD**.  
-This project uses your webcam to detect and highlight objects with bounding boxes and labels, powered entirely in the browser — no backend required.  
+## Getting Started
 
----
+First, run the development server:
 
-✨ Features
-- 📷 **Webcam Integration** – Live video feed directly in your browser  
-- 🤖 **COCO-SSD Model** – Detects 80+ everyday objects (people, cars, laptops, bottles, etc.)  
-- 🎯 **Bounding Boxes & Labels** – Draws colored rectangles with object names  
-- ⚡ **Runs 100% in Browser** – Client-side AI with TensorFlow.js  
-- 🔔 **Custom Alerts** – Extendable to raise alarms on specific detections  
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
----
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-🛠️ Tech Stack
-- **Framework**: [Next.js](https://nextjs.org/) (React 18)  
-- **AI Model**: [TensorFlow.js](https://www.tensorflow.org/js) + [COCO-SSD](https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd)  
-- **UI**: [TailwindCSS](https://tailwindcss.com/)  
-- **Camera Access**: [React-Webcam](https://www.npmjs.com/package/react-webcam) 
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
